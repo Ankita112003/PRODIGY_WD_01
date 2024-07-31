@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #b4f7f7, #aeaef5);
+    padding: 10px 0;
+    
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+    color: #1abb0e;
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#home {
+    background: #d2b8d7;
+}
+
+#services {
+    background: #f9f7ba;
+}
+
+#about {
+    background: #eeb6e6;
+}
+
+#contact {
+    background: #eec8c8;
+}
